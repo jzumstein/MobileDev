@@ -1,5 +1,5 @@
 #include <iostream>
-
+// Can't use const as it is input dependent.
 double mult(double x, double y, double z)
 {
 	return (x * y * z);
